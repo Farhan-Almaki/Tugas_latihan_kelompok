@@ -8,10 +8,10 @@ tugas yang kami buat ini digunakan untuk menghitung total biaya parkir kendaraan
 3. **Tarif Mobil (BR-03):** Rp5.000 untuk jam pertama, lalu Rp3.000 untuk setiap jam berikutnya.
 
 ## Alur Program n Struktur Kode
-- **`JenisKendaraan` (Enum):** Digunakan untuk membatasi tipe kendaraan (hanya `motor` dan `mobil`).
-- **`hitungJamParkir` (Function):** Konversi durasi menit ke jam menggunakan operator `~/` (bagi bulat) dan `%` (sisa bagi). Jika ada sisa menit, durasi jam otomatis ditambah 1.
-- **`hitungTarif` (Function):** Menerima jenis kendaraan dan durasi menit, lalu menghitung total biaya dengan `switch-case`.
-- **`main` (Function):** Menjalankan dan menampilkan hasil uji dari 4 skenario.
+- **JenisKendaraan (Enum):** Digunakan untuk membatasi tipe kendaraan (hanya motor dan mobil).
+- **hitungJamParkir (Function):** Konversi durasi menit ke jam menggunakan operator ~/ (bagi bulat) dan % (sisa bagi). Jika ada sisa menit, durasi jam otomatis ditambah 1.
+- **hitungTarif (Function):** Menerima jenis kendaraan dan durasi menit, lalu menghitung total biaya dengan switch-case.
+- **main (Function):** Menjalankan dan menampilkan hasil uji dari 4 skenario.
 
 
 ## Skenario Pengujian
