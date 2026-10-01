@@ -28,5 +28,9 @@ int hitungTarif(JenisKendaraan jenis, int menit) {
 }
 
 void main() {
-
+  print('Mencoba Skenario Tarif Parkir');
+  print('Untuk Skenario 1 (Motor, 30 menit)   : Rp${hitungTarif(JenisKendaraan.motor, 30)}');
+  print('Untuk Skenario 2 (Motor, 150 menit)  : Rp${hitungTarif(JenisKendaraan.motor, 150)}');
+  print('Untuk Skenario 3 (Mobil, 60 menit)   : Rp${hitungTarif(JenisKendaraan.mobil, 60)}');
+  print('Untuk Skenario 4 (Mobil, 181 menit)  : Rp${hitungTarif(JenisKendaraan.mobil, 181)}');
 }
