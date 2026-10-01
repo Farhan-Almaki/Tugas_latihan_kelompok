@@ -16,6 +16,17 @@ int hitungJamParkir(int menit) {
   return jam;
 }
 
+int hitungTarif(JenisKendaraan jenis, int menit) {
+  int totalJam = hitungJamParkir(menit);
+
+  switch (jenis) {
+    case JenisKendaraan.motor:
+      return 2000 + ((totalJam - 1) * 1000);
+    case JenisKendaraan.mobil:
+      return 5000 + ((totalJam - 1) * 3000);
+  }
+}
+
 void main() {
 
 }
